@@ -21,4 +21,10 @@
 
     String pwd = gpv_password.getPassWord();
     gpv_password = (GridPasswordView) findViewById(R.id.gpv_password);
+
 `
+
+    添加依赖
+    dependencies {
+        compile 'com.jungly:gridPasswordView:0.3'
+    }

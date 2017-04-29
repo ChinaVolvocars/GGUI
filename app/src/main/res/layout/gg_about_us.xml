@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--4-13、关于我们-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="16dp"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:text="版本号%s" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:divider="#e5e5e5"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <TextView
+            android:id="@+id/tv_mine_action_transaction_record"
+            style="@style/mine_fragment_textview"
+            android:text="了解得宝理财" />
+
+        <TextView
+            android:id="@+id/tv_mine_action_coin"
+            style="@style/mine_fragment_textview"
+            android:text="功能介绍" />
+
+        <TextView
+            android:id="@+id/tv_mine_action_redpacket"
+            style="@style/mine_fragment_textview"
+            android:text="给我们评分" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="检查更新"
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="最新版本%s"
+            android:textColor="#8e8e8e"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
